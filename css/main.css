@@ -73,6 +73,10 @@ body {
 
 }
 
+.centered {
+    display: block;
+    margin: 0 auto;
+}
 
 
 /*=======================END HEADER===========================================*/
@@ -134,7 +138,7 @@ body {
     padding: 0;
 }
 
-.search-field, .submit {
+.search-field, .submit-search {
     display: inline-block;
     margin: 0;
 }
@@ -283,6 +287,10 @@ a:active {
 
     .header {
         margin: 0 0 6em 0;
+    }
+
+        .nav-btn {
+        display: none;
     }
 }
 
@@ -610,4 +618,74 @@ a:active {
 
 /*=======================END PRICING==========================*/
 
+
+/*=======================FORMS================================*/
+
+
+
+
+
+
+label {
+    display: none;
+}
+
+
+input + label {
+    display: inline-block;
+}
+
+
+.submit {
+    text-align: center;}
+
+button {
+    padding: 0.5em;
+    cursor: pointer;
+    border: 1px solid #000;
+    border-radius: 0.5em;
+    color: #fff;
+    font-family: 'Roboto Slab', serif;
+}
+
+button:active {
+    background-color: #d2d2d2;
+}
+
+button:focus {
+    outline: 3px solid #000;
+}
+
+.field {
+    display: block;
+    font-size: 1em;
+    padding: 0.5em;
+    border: 1px solid #ccc;
+    width: 100%;
+    max-width: 45em;
+}
+
+.field:focus {
+    outline: 3px solid #000;
+}
+
+.input-field{
+    margin: 0 auto;
+    width: 100%;
+    max-width: 45em;
+}
+
+.form-sheet {
+    margin: 0 auto;
+}
+
+.sign-up {
+    margin: 0 auto;
+}
+
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+    -webkit-appearance: spin-button;
+    opacity: 1;
+}
 
