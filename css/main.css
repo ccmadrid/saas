@@ -354,7 +354,7 @@ a:active {
     width: 95%;
     left: 2.5%;
     text-align: center;
-    font-size: 10vw;
+    font-size: 8vw;
 }
 
 .saas-description {
@@ -391,6 +391,9 @@ a:active {
     width: 70%;
     margin: 3em 15%;
 }
+
+
+
 }
 
 @media only screen and (min-width: 57.167em){
@@ -401,8 +404,9 @@ a:active {
 
     .headline {
         top: 1em;
-        width: 10em;
+        width: 5em;
         font-size: 5em;
+        line-height: 0.9em;
         left: 5%;
     }
 
@@ -416,6 +420,12 @@ a:active {
     .start {
         top: 35em;
     }
+
+    .feature {
+    position: static;
+    }
+
+
 }
 
 .floating {
@@ -435,13 +445,13 @@ a:active {
 
 }
 
-
-.feature1, .feature2, .feature3 {
+.feature {
     position: relative;
     margin-bottom: 1em;
     overflow: hidden;
-    border-radius: 3em;
+    border-radius: 1em;
 }
+
 .caption {
     position: absolute;
     padding: 2em 10%;
@@ -450,6 +460,7 @@ a:active {
     color: #fff;
     text-align: center;
     top: 50%;
+    transform: translate(0, -50%);
 }
 
 .triangle-right {
