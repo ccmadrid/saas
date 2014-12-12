@@ -443,6 +443,11 @@ a:active {
 
 }
 
+.macbook {
+    max-width: 25em;
+    margin: 0 auto;
+}
+
 .floating {
     position: absolute;
     width: 100%;
@@ -466,6 +471,7 @@ a:active {
     margin-bottom: 1em;
     overflow: hidden;
     border-radius: 1em;
+    border: solid #000 1px;
 }
 
 .caption {
@@ -584,7 +590,7 @@ a:active {
 }
 
 .price-15 {
-    color: #fff;
+    color: #f66;
 }
 
 .price-button {
@@ -710,3 +716,7 @@ input[type=number]::-webkit-outer-spin-button {
     opacity: 1;
 }
 
+.akatsuki {
+    position: absolute;
+    top: 20vw;
+}
