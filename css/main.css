@@ -43,6 +43,7 @@ body {
     display: block;
     background-color: #eee;
     height: 5em;
+    z-index: 9999;
 }
 
 .logo {
@@ -318,6 +319,10 @@ a:active {
     .navigation {
         margin-top: 2em;
     }
+
+    .footer {
+        margin-top: 5em;
+    }
 }
 
 
@@ -374,8 +379,8 @@ a:active {
     background-color: #eee;
     left: 50%;
     transform: translate(-50%, -50%);
-    border: solid 2px #000;
-    border-radius: 0.5em;
+    border: solid 1px #000;
+    border-radius: 1em;
     top: 20em;
 }
 
@@ -484,9 +489,35 @@ a:active {
   border-color:#ddd transparent;
 }
 
+.learn-more {
+    display: block;
+}
+
+.learn-more p, .learn-more-button {
+    display: block;
+    width: 75%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.learn-more-button {
+    padding: 1em;
+    width: 10em;
+    border: 1px solid #000;
+    border-radius: 1em;
+    margin: 1em auto;
+    text-decoration: none;
+    color: #000;
+    background-color: #eee;
+}
+
 /*=======================END STOREFRONT=======================================*/
 
 /*=======================PRICING==============================*/
+
+.container {
+    position: relative;
+}
 
 .pricing {
     position: relative;
@@ -510,7 +541,6 @@ a:active {
     text-decoration: none;
     color: #fff;
 }
-
 
 .price-free{
     background-color: #c2c2c2;
@@ -552,6 +582,32 @@ a:active {
 .col-3 {
     background-color: #fff;
 }
+
+.faq {
+    margin-top: 5em;
+}
+
+.faq p {
+    text-align: center;
+}
+
+.social-media {
+
+}
+@media only screen and (min-width: 26.667em){
+    .faq p{
+        text-align: left;
+    }
+}
+@media only screen and (min-width: 57.167em){
+    .container {
+        top: 4em;
+    }
+}
+
+
+
+
 /*=======================END PRICING==========================*/
 
 
