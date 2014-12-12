@@ -386,6 +386,11 @@ a:active {
     .start {
         top: 31em;
     }
+
+    .cta-wrapper{
+    width: 70%;
+    margin: 3em 15%;
+}
 }
 
 @media only screen and (min-width: 57.167em){
@@ -393,13 +398,16 @@ a:active {
     .banner {
         height: 30em;
     }
+
     .headline {
+        top: 1em;
         width: 10em;
         font-size: 5em;
         left: 5%;
     }
 
     .saas-description {
+        top: 6em;
         width: 40em;
         font-size: 1em;
         left: 5%;
@@ -419,11 +427,29 @@ a:active {
 }
 
 .cta-wrapper{
-    margin: 5em 5%;
+    width: 80%;
+    margin: 3em 10%;
 }
 
 .cta {
 
+}
+
+
+.feature1, .feature2, .feature3 {
+    position: relative;
+    margin-bottom: 1em;
+    overflow: hidden;
+    border-radius: 3em;
+}
+.caption {
+    position: absolute;
+    padding: 2em 10%;
+    width: 100%;
+    background-color: rgba(0,0,0,0.5);
+    color: #fff;
+    text-align: center;
+    top: 50%;
 }
 
 .triangle-right {
