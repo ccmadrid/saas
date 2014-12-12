@@ -378,12 +378,12 @@ a:active {
 .start {
     position: absolute;
     display: block;
-    width: 8em;
+    width: 9   em;
     text-align: center;
     color: #000;
     text-decoration: none;
     padding: 1em;
-    background-color: #eee;
+    background-color: #ffd700;
     left: 50%;
     transform: translate(-50%, -50%);
     border: solid 1px #000;
@@ -571,17 +571,18 @@ a:active {
     color: #fff;
 }
 
-.price-free
+.price-free {
     background-color: #c2c2c2;
 }
 
-.price-5, .price-15 {
+.price-5 {
     background-color: #FFD700;
     color: #000;
 }
 
 .price-15 {
     color: #f66;
+    background-color: #FFD700;
 }
 
 .price-button {
@@ -593,7 +594,6 @@ a:active {
 
 .pricing-features img {
     width: 75%;
-
 }
 
 .pricing-features {
