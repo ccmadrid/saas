@@ -321,8 +321,133 @@ a:active {
 }
 
 
-/*=======================END MEDIA QUERIES========================================*/
+/*=======================END MEDIA QUERIES====================================*/
 
 /*============================================================================*/
 /*=======================END COMMON STYLES====================================*/
 /*============================================================================*/
+
+
+/*=======================STOREFRONT===========================================*/
+.banner {
+    width: 100%;
+    height: 15em;
+    overflow: hidden;
+    position: relative;
+    z-index: -10;
+
+}
+
+.banner-bg {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    -webkit-filter: blur(5px);
+    -moz-filter: blur(5px);
+    -o-filter: blur(5px);
+    -ms-filter: blur(5px);
+    filter: blur(5px);
+}
+
+.headline {
+    top: 2.5vw;
+    width: 95%;
+    left: 2.5%;
+    text-align: center;
+    font-size: 10vw;
+}
+
+.saas-description {
+    top: 4vw;
+    width: 75%;
+    left: 2.5%;
+}
+
+.start {
+    position: absolute;
+    display: block;
+    width: 8em;
+    text-align: center;
+    color: #000;
+    text-decoration: none;
+    padding: 1em;
+    background-color: #eee;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: solid 2px #000;
+    border-radius: 0.5em;
+    top: 20em;
+}
+
+@media only screen and (min-width: 26.667em){
+    .banner {
+        height: 20em;
+    }
+    .start {
+        top: 31em;
+    }
+}
+
+@media only screen and (min-width: 57.167em){
+
+    .banner {
+        height: 30em;
+    }
+    .headline {
+        width: 10em;
+        font-size: 5em;
+        left: 5%;
+    }
+
+    .saas-description {
+        width: 40em;
+        font-size: 1em;
+        left: 5%;
+    }
+
+    .start {
+        top: 35em;
+    }
+}
+
+.floating {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+
+}
+
+.cta-wrapper{
+    margin: 5em 5%;
+}
+
+.cta {
+
+}
+
+.triangle-right {
+  position:relative;
+  padding: 0.25em;
+  color:#fff;
+  background: #ddd;
+  -webkit-border-radius:10px;
+  -moz-border-radius:10px;
+  border-radius:10px;
+  text-align: center;
+}
+
+.triangle-right:after {
+  content:"";
+  position:absolute;
+  bottom:-20px; /* value = - border-top-width - border-bottom-width */
+  left:50px; /* controls horizontal position */
+  border-width:20px 0 0 20px; /* vary these values to change the angle of the vertex */
+  border-style:solid;
+  border-color:#ddd transparent;
+
+
+/*=======================END STOREFRONT=======================================*/
+
+
+
