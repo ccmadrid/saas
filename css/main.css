@@ -241,10 +241,10 @@ textarea:focus {
     color: #222;
 }
 
-
 .footer ul {
     list-style: none;
 }
+
 /*=======================END FOOTER===========================================*/
 
 /*=======================ACCESSIBILITY========================================*/
@@ -631,8 +631,14 @@ a:active {
 }
 
 .social-media {
-
+    list-style: none;
 }
+
+.sm-links {
+    text-decoration: none;
+    color: #888;
+}
+
 @media only screen and (min-width: 26.667em){
     .faq p{
         text-align: left;
@@ -661,6 +667,10 @@ a:active {
 
 }
 
+.sm-icon {
+    width: 3em;
+    margin-top: 0.5em;
+}
 /*=======================END PRICING==========================*/
 
 
