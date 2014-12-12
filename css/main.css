@@ -355,11 +355,11 @@ a:active {
     margin: 0;
     padding: 0;
     width: 100%;
-    -webkit-filter: blur(5px);
-    -moz-filter: blur(5px);
-    -o-filter: blur(5px);
-    -ms-filter: blur(5px);
-    filter: blur(5px);
+    -webkit-filter: blur(2px);
+    -moz-filter: blur(2px);
+    -o-filter: blur(2px);
+    -ms-filter: blur(2px);
+    filter: blur(2px);
 }
 
 .headline {
@@ -367,13 +367,14 @@ a:active {
     width: 95%;
     left: 2.5%;
     text-align: center;
-    font-size: 8vw;
+    font-size: 7vw;
 }
 
 .saas-description {
     top: 4vw;
     width: 75%;
     left: 2.5%;
+    color: #000;
 }
 
 .start {
@@ -403,6 +404,7 @@ a:active {
     .cta-wrapper{
     width: 70%;
     margin: 3em 15%;
+    text-align: center;
 }
 
 
@@ -417,7 +419,7 @@ a:active {
 
     .headline {
         top: 1em;
-        width: 5em;
+        width: 7em;
         font-size: 5em;
         line-height: 0.9em;
         left: 5%;
@@ -426,7 +428,7 @@ a:active {
     .saas-description {
         top: 6em;
         width: 40em;
-        font-size: 1em;
+        font-size: 1.2em;
         left: 5%;
     }
 
@@ -452,10 +454,11 @@ a:active {
 .cta-wrapper{
     width: 80%;
     margin: 3em 10%;
+    text-align: center;
 }
 
 .cta {
-
+    margin: 0 auto;
 }
 
 .feature {
@@ -479,23 +482,44 @@ a:active {
 .triangle-right {
   position:relative;
   padding: 0.25em;
-  color:#fff;
+  color:#000;
   background: #ddd;
   -webkit-border-radius:10px;
   -moz-border-radius:10px;
   border-radius:10px;
   text-align: center;
+  border: solid #000 1px;
+  max-width: 15em;
 }
 
+
+.triangle-right:before {
+  content:"";
+  position:absolute;
+  bottom:-20px;
+  left:40px;
+  border-width:20px 20px 0;
+  border-style:solid;
+  border-color:#000 transparent;
+  display:block;
+  width:0;
+}
+
+/* creates the smaller  triangle */
 .triangle-right:after {
   content:"";
   position:absolute;
-  bottom:-20px; /* value = - border-top-width - border-bottom-width */
-  left:50px; /* controls horizontal position */
-  border-width:20px 0 0 20px; /* vary these values to change the angle of the vertex */
+  bottom:-18px;
+  left:42px;
+  border-width:18px 18px 0;
   border-style:solid;
-  border-color:#ddd transparent;
+  border-color: #ddd transparent;
+  display:block;
+  width:0;
 }
+
+
+
 
 .learn-more {
     display: block;
@@ -580,16 +604,10 @@ a:active {
     text-align: center;
 }
 
-.col-1 {
+.col-1 , .col-2, .col-3 {
     background-color: #fff;
 }
 
-.col-2 {
-    background-color: #fff;
-}
-.col-3 {
-    background-color: #fff;
-}
 
 .faq {
     margin-top: 5em;
@@ -630,6 +648,9 @@ label {
     display: none;
 }
 
+.search-label {
+    display: inline;
+}
 
 input + label {
     display: inline-block;
