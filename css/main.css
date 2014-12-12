@@ -611,9 +611,16 @@ a:active {
 }
 
 .col-1 , .col-2, .col-3 {
-    background-color: #fff;
+    background-color: #ddd;
 }
 
+.col-2 {
+    background-color: #ffb;
+}
+
+.col-3 {
+    background-color: #fbb;
+}
 
 .faq {
     margin-top: 5em;
@@ -630,6 +637,11 @@ a:active {
     .faq p{
         text-align: left;
     }
+    .ftr-lst {
+        height: 25em;
+        overflow: auto;
+
+    }
 }
 @media only screen and (min-width: 57.167em){
     .container {
@@ -638,7 +650,16 @@ a:active {
 }
 
 
+.ftr-lst {
+    list-style: none;
+    text-indent: none;
+    padding: 0;
+}
 
+.ftr {
+    padding: 0;
+
+}
 
 /*=======================END PRICING==========================*/
 
