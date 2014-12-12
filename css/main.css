@@ -240,10 +240,17 @@ textarea:focus {
     color: #222;
 }
 
+.footer ul:last-child {
+    color: #fff;
+}
+
 .footer ul {
     list-style: none;
 }
 
+.yellow {
+    color: #ffd700;
+}
 /*=======================END FOOTER===========================================*/
 
 /*=======================ACCESSIBILITY========================================*/
