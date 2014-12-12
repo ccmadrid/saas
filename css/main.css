@@ -110,7 +110,7 @@ body {
     width: 100%;
     max-height: 0em;
     overflow: hidden;
-    z-index: 10;
+    z-index: 10000;
     -moz-transition: all 250ms linear;
     -o-transition: all 250ms linear;
     -webkit-transition: all 250ms linear;
@@ -482,9 +482,76 @@ a:active {
   border-width:20px 0 0 20px; /* vary these values to change the angle of the vertex */
   border-style:solid;
   border-color:#ddd transparent;
-
+}
 
 /*=======================END STOREFRONT=======================================*/
 
+/*=======================PRICING==============================*/
+
+.pricing {
+    position: relative;
+    display: inline-block;
+}
+
+.pricing-img {
+    width: 100%;
+}
+
+.pricing-img img, .pricing-features img{
+    display: block;
+    width: 75%;
+    margin: 1em auto;
+}
+
+.price-free, .price-5, .price-15{
+    padding: 1em;
+    margin: 1em auto;
+    border-radius: 1em;
+    text-decoration: none;
+    color: #fff;
+}
+
+
+.price-free{
+    background-color: #c2c2c2;
+}
+
+.price-5, .price-15{
+    background-color: #FFD700;
+    color: #000;
+}
+
+.price-15 {
+    color: #fff;
+}
+
+.price-button {
+    width: 8em;
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+
+}
+
+.pricing-features img{
+    width: 75%;
+
+}
+
+.pricing-features {
+    text-align: center;
+}
+
+.col-1 {
+    background-color: #eff;
+}
+
+.col-2 {
+    background-color: #fef;
+}
+.col-3 {
+    background-color: #ffe;
+}
+/*=======================END PRICING==========================*/
 
 
