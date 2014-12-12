@@ -127,7 +127,6 @@ body {
     opacity: 1;
 }
 
-
 .search-field input {
 
 }
@@ -175,7 +174,7 @@ button:focus {
     outline: 3px solid #000;
 }
 
-.input-field{
+.input-field {
     margin: 0 auto;
     width: 100%;
     max-width: 45em;
@@ -224,7 +223,7 @@ textarea:focus {
     width: 100%;
 }
 
-.current{
+.current {
     background-color: #eee;
 }
 /*=======================END TOGGLE INTERIOR==================================*/
@@ -278,7 +277,7 @@ a:active {
 /*=======================ACCESSIBILITY========================================*/
 
 /*=======================MEDIA QUERIES========================================*/
-@media only screen and (min-width: 26.667em){
+@media only screen and (min-width: 26.667em) {
 
 
     .nav-top {
@@ -289,13 +288,13 @@ a:active {
         margin: 0 0 6em 0;
     }
 
-        .nav-btn {
+    .nav-btn {
         display: none;
     }
 }
 
 
-@media only screen and (min-width: 57.167em){
+@media only screen and (min-width: 57.167em) {
     .header {
         position: fixed;
     }
@@ -348,7 +347,6 @@ a:active {
     overflow: hidden;
     position: relative;
     z-index: -10;
-
 }
 
 .banner-bg {
@@ -393,7 +391,8 @@ a:active {
     top: 20em;
 }
 
-@media only screen and (min-width: 26.667em){
+@media only screen and (min-width: 26.667em) {
+
     .banner {
         height: 20em;
     }
@@ -401,17 +400,15 @@ a:active {
         top: 31em;
     }
 
-    .cta-wrapper{
-    width: 70%;
-    margin: 3em 15%;
-    text-align: center;
-}
-
-
+    .cta-wrapper {
+        width: 70%;
+        margin: 3em 15%;
+        text-align: center;
+    }
 
 }
 
-@media only screen and (min-width: 57.167em){
+@media only screen and (min-width: 57.167em) {
 
     .banner {
         height: 30em;
@@ -437,10 +434,8 @@ a:active {
     }
 
     .feature {
-    position: static;
+        position: static;
     }
-
-
 }
 
 .macbook {
@@ -453,7 +448,6 @@ a:active {
     width: 100%;
     height: 100%;
     top: 0;
-
 }
 
 .cta-wrapper{
@@ -486,46 +480,43 @@ a:active {
 }
 
 .triangle-right {
-  position:relative;
-  padding: 0.25em;
-  color:#000;
-  background: #ddd;
-  -webkit-border-radius:10px;
-  -moz-border-radius:10px;
-  border-radius:10px;
-  text-align: center;
-  border: solid #000 1px;
-  max-width: 15em;
+    position:relative;
+    padding: 0.25em;
+    color:#000;
+    background: #ddd;
+    -webkit-border-radius:10px;
+    -moz-border-radius:10px;
+    border-radius:10px;
+    text-align: center;
+    border: solid #000 1px;
+    max-width: 15em;
 }
 
 
 .triangle-right:before {
-  content:"";
-  position:absolute;
-  bottom:-20px;
-  left:40px;
-  border-width:20px 20px 0;
-  border-style:solid;
-  border-color:#000 transparent;
-  display:block;
-  width:0;
+    content:"";
+    position:absolute;
+    bottom:-20px;
+    left:40px;
+    border-width:20px 20px 0;
+    border-style:solid;
+    border-color:#000 transparent;
+    display:block;
+    width:0;
 }
 
 /* creates the smaller  triangle */
 .triangle-right:after {
-  content:"";
-  position:absolute;
-  bottom:-18px;
-  left:42px;
-  border-width:18px 18px 0;
-  border-style:solid;
-  border-color: #ddd transparent;
-  display:block;
-  width:0;
+    content:"";
+    position:absolute;
+    bottom:-18px;
+    left:42px;
+    border-width:18px 18px 0;
+    border-style:solid;
+    border-color: #ddd transparent;
+    display:block;
+    width:0;
 }
-
-
-
 
 .learn-more {
     display: block;
@@ -566,7 +557,7 @@ a:active {
     width: 100%;
 }
 
-.pricing-img img, .pricing-features img{
+.pricing-img img, .pricing-features img {
     display: block;
     width: 75%;
     margin: 1em auto;
@@ -580,11 +571,11 @@ a:active {
     color: #fff;
 }
 
-.price-free{
+.price-free
     background-color: #c2c2c2;
 }
 
-.price-5, .price-15{
+.price-5, .price-15 {
     background-color: #FFD700;
     color: #000;
 }
@@ -598,10 +589,9 @@ a:active {
     display: block;
     margin: 0 auto;
     text-align: center;
-
 }
 
-.pricing-features img{
+.pricing-features img {
     width: 75%;
 
 }
@@ -610,7 +600,7 @@ a:active {
     text-align: center;
 }
 
-.col-1 , .col-2, .col-3 {
+.col-1 {
     background-color: #ddd;
 }
 
@@ -632,29 +622,34 @@ a:active {
 
 .social-media {
     list-style: none;
+    padding: 0;
+}
+
+.social-media li {
+    display: inline-block;
+    margin: 0;
 }
 
 .sm-links {
+    display: inline;
     text-decoration: none;
     color: #888;
 }
 
-@media only screen and (min-width: 26.667em){
+@media only screen and (min-width: 26.667em) {
     .faq p{
         text-align: left;
     }
     .ftr-lst {
         height: 25em;
         overflow: auto;
-
     }
 }
-@media only screen and (min-width: 57.167em){
+@media only screen and (min-width: 57.167em) {
     .container {
         top: 4em;
     }
 }
-
 
 .ftr-lst {
     list-style: none;
@@ -675,11 +670,6 @@ a:active {
 
 
 /*=======================FORMS================================*/
-
-
-
-
-
 
 label {
     display: none;
