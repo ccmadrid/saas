@@ -679,7 +679,9 @@ a:active {
 /*=======================FORMS================================*/
 
 label {
-    display: none;
+    /*hiding the labels without using display:none so that its still accessible for visually impaired*/
+    position: absolute;
+    z-index: -999;
 }
 
 .search-label {
@@ -728,6 +730,7 @@ button:focus {
     margin: 0 auto;
     width: 100%;
     max-width: 45em;
+    position: relative;
 }
 
 .form-sheet {
